@@ -3,7 +3,8 @@
 
 here's the bare minimum you need to know
 
-the basic usage is just passing the .sm in question as an argument
+the basic usage is just passing the .sm in question as an argument; it then shits out a json
+
 ![image](https://user-images.githubusercontent.com/53107421/142876194-2d5f8f0b-02d0-408a-b765-8c957645222a.png)
 
 the .sm needs to be formatted in a very specific way though, because arrowvortex's dance double editing sucks prolapsed placenta so to get around that, it instead uses 3 charts. (also this makes it way easier to playtest in etterna)
@@ -25,8 +26,12 @@ DUE TO SOME SHITTY WORKAROUNDS if bf's side has more sections than the enemy's s
 2. The Artist is the stage
 3. The program automatically tries to detect difficulty. if the path has "\_ez" it detects easy, "\_n" normal, if it has neither it defaults to hard
 
+![image](https://user-images.githubusercontent.com/53107421/142882977-603067c5-f107-4f0f-a876-c27b91177871.png)
+
+
 
 **To change the singers and scroll speeds** you have to edit the .py itself
+
 ![image](https://user-images.githubusercontent.com/53107421/142879590-ebfc5a05-e519-4875-a11c-6f3f630f2110.png)
 
 i put some default scroll speeds i think are fit for each difficulty; there's probably a way to implement these arguments as something you pass into the program but my knowledge of python is neanderthal
